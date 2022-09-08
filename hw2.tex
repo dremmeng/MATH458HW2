@@ -41,20 +41,31 @@
 \begin{enumerate}
 
 \item 
+If H and K are subgroups of G, show that $H\cap K$ is a subgroup of G. (can you see that the same proof
+shows that the intersection of any number of subgroups of G, finite or infinite, is again a subgroup of
+G?)
 	\begin{enumerate}
 	\item Associativity. Since $H$ and $K$ are subgroups they are associative so $H\cap K$ inherits associativity.
 	\item Identity. As subgroups of $G$ we can assume $e$, the identity of $G$, is $\in H$ and $\in K$.
 	\item Closure. $\forall a,b \in H$ we can say $ab \in H$ and $\forall a,b \in K$ we can say $ab \in K$. So $\forall a,b \in H\cap K$ we can say $ab \in H\cap K$.
 	\item Inverses. Since $H$ and $K$ are subgroups we can say $\exists c^{-1} \in H$ and $K$ for $\forall c \in H$ and $K$. So $\exists c^{-1} \in H \cap K$ for $ \forall c \in H\cap K$.
 	\end{enumerate}
-\item For the finite case we have: $(x a x^{-1})^{n} = x a^{n}x^{-1}$ so substituting $| a |$ in for $n$ leaves us with $x a ^{| a |} x ^{-1} = x e x^{-1} = e$. For the infinite case we have $(x a x^{-1})^{n} = x a^{n}x^{-1}$ so if the order of $a$ is infinite the order of $x a x^{-1}$ cannot be finite. 
-\item Consider $H = {e,a,b,ab}$ with $|a|, |b| = 2$ for $a,b \in G$. Then $H$ is a valid subgroup of order 4 and is a subgroup of $G$.
-\item Let $H$ be the smallest subgroup of $G$ containing $a$. Then by closure $\forall a^{n}$ for $\forall n \in \mathbb{Z}$ is $\in H$. Then $\langle a \rangle \subset H$ and since $H$ is the smallest subgroup of $G$ containing $a$ then $\langle a \rangle$ is the smallest subset of $G$ containing $a$. 
+\item 
+For any group elements a and x, prove that $|x^{-1}ax|= |a|$.
+For the finite case we have: $(x a x^{-1})^{n} = x a^{n}x^{-1}$ so substituting $| a |$ in for $n$ leaves us with $x a ^{| a |} x ^{-1} = x e x^{-1} = e$. For the infinite case we have $(x a x^{-1})^{n} = x a^{n}x^{-1}$ so if the order of $a$ is infinite the order of $x a x^{-1}$ cannot be finite. 
+\item 
+Prove that a group with two elements of order 2 that commute must have a subgroup of order 4.
+Consider $H = {e,a,b,ab}$ with $|a|, |b| = 2$ for $a,b \in G$. Then $H$ is a valid subgroup of order 4 and is a subgroup of $G$.
+\item 
+Prove that $\langle a \rangle$ is the smallest subgroup of G containing a.
+Let $H$ be the smallest subgroup of $G$ containing $a$. Then by closure $\forall a^{n}$ for $\forall n \in \mathbb{Z}$ is $\in H$. Then $\langle a \rangle \subset H$ and since $H$ is the smallest subgroup of $G$ containing $a$ then $\langle a \rangle$ is the smallest subset of $G$ containing $a$. 
 \item
 	\begin{enumerate}
-	\item Since $G$ is abelian the centeralizer of the group is equal to $G$. Since $G$ is abelian the center of an element $a$ is equal to the group $G$ for $\forall a \in G$.
-	\item  Yes since the center commutes with all other elements it is abelian.
-	\item The centralizer of a group element need not be abelian since that element may not be abelian with all other elements in the centralizer of that element. 
+	\item Suppose G is an abelian group. Prove that Z(G) = C(a) = G for any $a \in G$. Since $G$ is abelian the centeralizer of the group is equal to $G$. Since $G$ is abelian the center of an element $a$ is equal to the group $G$ for $\forall a \in G$.
+	\item  Must the center of a group be abelian? Justify your answer.
+Yes since the center commutes with all other elements it is abelian.
+	\item Must the centralizer of a group element be abelian? Justify your answer.
+The centralizer of a group element need not be abelian since that element may not be abelian with all other elements in the centralizer of that element. 
 	\end{enumerate}
 \end{enumerate}
 
